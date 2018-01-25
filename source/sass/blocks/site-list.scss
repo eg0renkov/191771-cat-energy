@@ -1,0 +1,4 @@
+.site-list__item {
+  text-transform: uppercase;
+  @include font-height(20px, 20px);
+}

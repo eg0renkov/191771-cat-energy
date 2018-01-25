@@ -1,0 +1,10 @@
+.advantages__title {
+  @include font-height(36px, 60px);
+  color: $text-black-1;
+}
+
+.advantages__item-text {
+  @include font-height(14px, 18px);
+  font-family: "Arial", sans-serif;
+  color: $text-gray;
+}

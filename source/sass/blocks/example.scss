@@ -1,0 +1,37 @@
+.example {
+  background-color: $background-gray;
+}
+
+.example__title {
+  @include font-height(36px, 60px);
+  color: $text-black-1;
+}
+
+.example__text {
+  @include font-height(14px, 18px);
+  font-family: "Arial", sans-serif;
+  color: $text-gray
+}
+
+.example__statistics-item {
+  @include font-height(14px, 14px);
+  font-family: "Arial", sans-serif;
+  color: $text-gray;
+  b {
+    @include font-height(24px, 24px);
+    text-transform: uppercase;
+    color: $text-black-1;
+  }
+}
+
+.example__statistics-full {
+  @include font-height(14px, 20px);
+  text-transform: uppercase;
+  color: $text-black-1;
+}
+
+.example__label {
+  @include font-height(16px, 20px);
+  text-transform: uppercase;
+  color: $text-black-1;
+}

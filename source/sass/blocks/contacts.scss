@@ -1,0 +1,17 @@
+.contacts {
+  &--index {
+    background-color: $background-base;
+  }
+}
+
+.contacts__invite {
+  @include font-height(16px, 20px);
+  text-transform: uppercase;
+  color: $text-black-1;
+}
+
+.contacts__address {
+  @include font-height(14px, 20px);
+  font-family: "Arial", sans-serif;
+  color: $text-gray;
+}
