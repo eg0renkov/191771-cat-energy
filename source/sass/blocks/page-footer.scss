@@ -1,0 +1,9 @@
+.page-footer {
+  background-color: $background-gray;
+}
+
+.page-footer__copyright {
+  @include font-height(16px, 16px);
+  font-family: "Arial", sans-serif;
+  color: $text-gray;
+}
